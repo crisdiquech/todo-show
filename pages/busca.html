@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Cristian Diquech">
+    <meta name="classification" content="teatro, espectáculos, comedia, recitales, stand up, drama, musicales, espectaculos infantiles, danza, terror">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Busqueda | TuTicket!</title>
+</head>
+<body id="busca">
+    <header>
+        <a href="../index.html"><img src="../images/LOGO.png" id="logo"></a>
+        <div id="buscar-nav">
+        <form  action="#" enctype="application/x-www-form-urlencoded" method="GET">
+            <label for="search"><a href="../pages/busca.html"><img src="../images/lupa.png" height="20"></a></label>
+            <input type="search" id="search" name="search" placeholder="Buscar">
+        </form>
+        <a href="../pages/login.html"><img src="../images/login.png" height="20"></a>
+         </div>
+    </header>
+        
+        <section id="busqueda">
+            <form action="#" enctype="application/x-www-form-urlencoded" method="GET">
+                <label for="fecha"></label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0849413426977!2d-58.37149272366079!3d-34.60201355065456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335325f19f9a3%3A0xfd34b93fba734a98!2sLuna%20Park!5e0!3m2!1ses-419!2sar!4v1686708267276!5m2!1ses-419!2sar" width="110" height="110" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2>Tipo de show</h1>
+                <input type="checkbox" id="recitales" name="recitales" value="recitales">
+                <label for="recitales"> RECITALES</label><br>
+                <input type="checkbox" id="teatro" name="teatro" value="teatro">
+                <label for="teatro"> TEATRO</label><br>
+                <input type="checkbox" id="standup" name="standup" value="standup">
+                <label for="standup"> STAND UP</label><br><br>
+                <h2>Localidad</h2>
+                <input type="checkbox" id="caba" name="caba" value="caba">
+                <label for="caba"> CABA</label><br>
+                <input type="checkbox" id="zonaoeste" name="zonaoeste" value="zonaoeste">
+                <label for="zonaoeste"> ZONA OESTE</label><br>
+                <input type="checkbox" id="zonanorte" name="zonanorte" value="zonanorte">
+                <label for="zonanorte"> ZONA NORTE</label><br><br>
+                <input type="submit" value="Buscar Shows">
+            </form>
+        </section>
+
+        <main id="resultados">
+            <h1> RESULTADOS</h1>
+                <table>
+                    <tr>
+                        <td><a href="../pages/compra.html"><img src="../images/13.jpg" alt="Evento 1"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/14.jpg" alt="Evento 2"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/15.jpg" alt="Evento 3"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/16.jpg" alt="Evento 4"></a> </td>
+                    </tr>    
+                    <tr>
+                        <td><a href="../pages/compra.html"><img src="../images/17.jpg" alt="Evento 5"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/18.jpg" alt="Evento 6"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/19.jpg" alt="Evento 7"></a> </td>
+                        <td><a href="../pages/compra.html"><img src="../images/20.jpg" alt="Evento 8"></a> </td>
+                    </tr>    
+                </table> 
+        </main>
+
+        <footer>
+           
+                <div id="footer-pages">
+                <a href="../pages/servicios.html" class="footer">SERVICIOS</a>
+                <a href="../pages/contacto.html" class="footer">CONTACTO</a>
+                </div>
+                <div id="footer-social">
+                <a href="https://www.facebook.com"><img src="../images/FACEBOOK.png" class="redes"> </a>
+                <a href="https://www.instagram.com"><img src="../images/INSTAGRAM.png" class="redes"></a>
+                <a href="https://www.twitter.com"><img src="../images/TWITTER.png" class="redes"></a>
+                </div>
+           
+    
+        </footer>
+</body>
+</html>
